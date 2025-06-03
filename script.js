@@ -114,7 +114,7 @@ function showFinalScore() {
     allButtons.forEach(button => button.style.display = "none");
 
     imageContainer.innerHTML = `
-        <img src="images/skin.jpg" alt="Fortnite Logo" width="300">
+        <img src="https://i.imgur.com/uWCKAll.jpeg" alt="Fortnite default skin - fortnite post - Imgur"/>
     `;
 }
 

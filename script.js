@@ -20,8 +20,8 @@ let questions = [
         correct: "Cloaked Star"
     },
     {
-        question: "What Color Did OG's Get For Ghoul Trooper?",
-        answers: ["Green", "Purple", "Gray", "Pink"],
+        question: "What Skin Was The Tier 1 Skin For Season 3?",
+        answers: ["John Wick", "Skull Trooper", "Mission Specialist", "Black Knight"],
         correct: "Pink"
     },
     {

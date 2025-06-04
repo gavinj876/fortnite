@@ -51,6 +51,7 @@ let questions = [
     }
 ];
 
+//AI helped debug
 function shuffleQuestions(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -83,7 +84,7 @@ function showQuestion() {
     let q = questions[current];
     questionText.textContent = q.question;
 
-    //AI helped with this
+    //AI helped with debugging this
     questionNumber.textContent = `Question ${current + 1} of ${questions.length}`;
 
     answer1.textContent = q.answers[0];
@@ -126,6 +127,7 @@ function showFinalScore() {
     `;
 }
 
+//AI helped debug and make
 const shuffledAnswers = [...q.answers].sort(() => Math.random() - 0.5);
 
 answer1.onclick = () => checkAnswer(answer1.textContent);

@@ -1,9 +1,3 @@
-//AI helped me shuffle the questions
-for (let i = questions.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [questions[i], questions[j]] = [questions[j], questions[i]];
-}
-
 let questions = [
     {
         question: "Which Skin Has A Built-In Emote?",
@@ -56,6 +50,14 @@ let questions = [
         correct: "Visitor"
     }
 ];
+
+function shuffleQuestions(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
 
 let current = 0;
 let score = 0;
@@ -123,6 +125,8 @@ function showFinalScore() {
         <img src="images/skin.jpg" alt="Fortnite Logo" width="300">
     `;
 }
+
+const shuffledAnswers = [...q.answers].sort(() => Math.random() - 0.5);
 
 answer1.onclick = () => checkAnswer(answer1.textContent);
 answer2.onclick = () => checkAnswer(answer2.textContent);

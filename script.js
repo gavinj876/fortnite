@@ -11,7 +11,7 @@ let questions = [
     },
     {
         question: "What Skin Came In The First Starter Pack?",
-        answers: ["Funk Ops", "Zoe", "Rook", "Rogue Agent"],
+        answers: ["Funk Ops", "Elite Agent", "Rook", "Rogue Agent"],
         correct: "Rogue Agent"
     },
     {
@@ -22,7 +22,7 @@ let questions = [
     {
         question: "What Skin Was The Tier 1 Skin For Season 3?",
         answers: ["John Wick", "Skull Trooper", "Mission Specialist", "Black Knight"],
-        correct: "Pink"
+        correct: "Mission Specialist"
     },
     {
         question: "What Skin Did You Get From The Discovery Challenge In Season 8?",
@@ -30,9 +30,9 @@ let questions = [
         correct: "Ruin"
     },
     {
-        question: "What Was The First Skin To Have The Durr Burger Head?",
-        answers: ["Grill Seargent", "Onsie", "Tomato Head", "Beef Boss"],
-        correct: "Beef Boss"
+        question: "What Was The Teir 47 Skin In The Season 9 Battle Pass?",
+        answers: ["Demi", "Stratus", "Rox", "Vega"],
+        correct: "Vega"
     },
     {
         question: "What Skin Was Remade In The Season X Battle Pass?",

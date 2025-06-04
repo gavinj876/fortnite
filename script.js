@@ -98,7 +98,7 @@ function checkAnswer(answer) {
 
     setTimeout(() => {
         current++;
-        for (current < questions.length) {
+        if (current < questions.length) {
             showQuestion();
         } else {
             showFinalScore();

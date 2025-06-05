@@ -1,4 +1,6 @@
 # fortnite
+## IF THERE ARE ANY QUESTIONS ABOUT THE WEBSITE OR CODE, WE CAN TALK OFFLINE AND FURTHER DEBUG THE ISSUE WITH JAIME
+
 DESCRIPTION
 
 My website is a trivia game about OG Fortnite skins. It is a 10 question multiple choice trivia game. The user is asked a question about a certain skin, then they have to select what skin that question is asking about. The game tracks the score of the user and displays it at the end. It tests the OG Fortnite skin ball knowledge of the user.

@@ -22,7 +22,7 @@ Styles.css
 CREDIBILITY
 
 Luke Calvin Helped me come up with some of the questions and skins that I used.
-AI helped me with making a tracker for what question the user was on. It debugged shuffling the questions so they were not always in the same order. It helped with fixing the final score after shuffling the questions. AI was mainly used for debugging, not making code.
+AI helped me with making a tracker for what question the user was on. It helped me make the default skin image only appear at then end of the trivia by telling me what syntax to use and what type of image.
 
 VIDEO
 

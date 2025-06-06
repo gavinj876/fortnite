@@ -1,6 +1,8 @@
 body {
     background-image: url('image/load.jpg');
     text-align: center;
+    background-size: cover;
+    background-position: center;
 }
 
 #title {

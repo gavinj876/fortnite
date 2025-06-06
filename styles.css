@@ -1,5 +1,5 @@
 body {
-    background-image: url('images/background.jpg');
+    background-image: url('images/background.jpg'); /* change path if needed */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -11,22 +11,44 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Full screen height */
+    height: 100vh;
     text-align: center;
 }
 
-#title {
+#game-container {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 500px;
+    width: 90%;
     color: white;
-    font-size: 50px;
-}
-
-.nav-link {
-    color: #blue;
-    font-size:20px;
 }
 
 button {
-    background-color: white;
-    color: black;
-    font-size: 20px;
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.nav-link {
+    color: lightblue;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+img {
+    margin-top: 10px;
+    border-radius: 10px;
 }

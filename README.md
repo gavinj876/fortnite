@@ -1,6 +1,8 @@
 # FORTNITE
 ## IF THERE ARE ANY QUESTIONS ABOUT THE WEBSITE OR CODE, WE CAN TALK OFFLINE AND FURTHER DEBUG THE ISSUE WITH JAIME
 
+My name is Gavin Johnson, I created this fortnite skin themed trivia for my APCSP final website project.
+
 DESCRIPTION
 
 My website is a trivia game about OG Fortnite skins. It is a 10 question multiple choice trivia game. The user is asked a question about a certain skin, then they have to select what skin that question is asking about. The game tracks the score of the user and displays it at the end. It always shuffles the order of questions and what order the answer are in whenever a new user plays. There are 4 different fortnite related images. 2 on the normal trivia, 1 on the about page, and 1 on the end screen. There is the fortnite loading screen as the background. It tests the OG Fortnite skin ball knowledge of the user.
@@ -27,5 +29,4 @@ AI helped me make the default skin image only appear at then end of the trivia b
 VIDEO
 
 SCREENSHOTS
-![Screenshot 2025-06-04 1 39 25 PM](https://github.com/user-attachments/assets/971e3476-9b45-434d-8952-9f79193f89a4)
-![Screenshot 2025-06-04 1 53 01 PM](https://github.com/user-attachments/assets/478ba4ea-c3d7-405b-ae9d-7b90475b41ed)
+

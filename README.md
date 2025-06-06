@@ -21,7 +21,7 @@ Styles.css has all of the ids for specific styles like fonts and colors so I don
 CREDIBILITY
 
 Luke Calvin Helped me come up with some of the questions and skins that I used.
-AI helped me with making a tracker for what question the user was on. It helped me make the default skin image only appear at then end of the trivia by telling me what syntax to use and what type of image. It debugged the function that shuffled the questions and answers, so the trivia would not always be in the same order.
+AI helped me make the default skin image only appear at then end of the trivia by telling me what syntax to use and what type of image. It debugged the function that shuffled the questions and answers, so the trivia would not always be in the same order.
 
 VIDEO
 

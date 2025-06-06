@@ -3,7 +3,7 @@
 
 DESCRIPTION
 
-My website is a trivia game about OG Fortnite skins. It is a 10 question multiple choice trivia game. The user is asked a question about a certain skin, then they have to select what skin that question is asking about. The game tracks the score of the user and displays it at the end. It tests the OG Fortnite skin ball knowledge of the user.
+My website is a trivia game about OG Fortnite skins. It is a 10 question multiple choice trivia game. The user is asked a question about a certain skin, then they have to select what skin that question is asking about. The game tracks the score of the user and displays it at the end. It tests the OG Fortnite skin ball knowledge of the user. It always shuffles the order of questions and what order the answer are in whenever a new user plays.
 
 HOW TO USE
 
@@ -21,7 +21,7 @@ Styles.css has all of the ids for specific styles like fonts and colors when I d
 CREDIBILITY
 
 Luke Calvin Helped me come up with some of the questions and skins that I used.
-AI helped me with making a tracker for what question the user was on. It helped me make the default skin image only appear at then end of the trivia by telling me what syntax to use and what type of image. It debugged the function that shuffled the questions, so the trivia would not always be in the same order.
+AI helped me with making a tracker for what question the user was on. It helped me make the default skin image only appear at then end of the trivia by telling me what syntax to use and what type of image. It debugged the function that shuffled the questions and answers, so the trivia would not always be in the same order.
 
 VIDEO
 

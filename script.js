@@ -65,7 +65,7 @@ let imageContainer = document.getElementById("image-container");
 
 let allButtons = [answer1, answer2, answer3, answer4];
 
-//AI helped debug and fix this function
+// AI helped debug and fix this function
 function shuffle(array) {
     for (let i = array.length - 1; i > 0; i--) {
         let j = Math.floor(Math.random() * (i + 1));
@@ -82,14 +82,16 @@ function showQuestion() {
 
     let q = questions[current];
     questionText.textContent = q.question;
-
-    //AI helped with debugging this
     questionNumber.textContent = `Question ${current + 1} of ${questions.length}`;
 
-    answer1.textContent = q.answers[0];
-    answer2.textContent = q.answers[1];
-    answer3.textContent = q.answers[2];
-    answer4.textContent = q.answers[3];
+    let shuffledAnswers = [...q.answers];
+    shuffle(shuffledAnswers);
+
+    //AI helped me debug
+    for (let i = 0; i < allButtons.length; i++) {
+        allButtons[i].textContent = shuffledAnswers[i];
+        allButtons[i].onclick = () => checkAnswer(shuffledAnswers[i]);
+    }
 }
 
 function checkAnswer(answer) {
@@ -116,21 +118,16 @@ function checkAnswer(answer) {
 
 function showFinalScore() {
     questionText.textContent = "🎉 You're done!";
-    questionNumber.textContent =""
+    questionNumber.textContent = "";
     result.textContent = `You got ${score} out of ${questions.length} correct.`;
 
     allButtons.forEach(button => button.style.display = "none");
 
-    //AI helped make it so the image only displayed at the end
+    // AI helped make it so the image only displayed at the end
     imageContainer.innerHTML = `
         <img src="images/skin.jpg" alt="Fortnite Logo" width="300">
     `;
 }
-
-answer1.onclick = () => checkAnswer(answer1.textContent);
-answer2.onclick = () => checkAnswer(answer2.textContent);
-answer3.onclick = () => checkAnswer(answer3.textContent);
-answer4.onclick = () => checkAnswer(answer4.textContent);
 
 shuffle(questions);
 showQuestion();

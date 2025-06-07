@@ -5,10 +5,8 @@ body {
 }
 
 #title {
-    font-size: 48px;
-    margin-top: 20px;
+    font-size: 50px;
     color: white; 
-    text-shadow: 2px 2px 5px black;
 }
 
 .nav-link {
@@ -19,34 +17,21 @@ body {
 #question-number,
 #question {
     font-size: 24px;
-    margin: 20px 0;
     color: white;
 }
 
 button {
     display: block;
-    margin: 10px auto;
-    padding: 12px 20px;
-    font-size: 18px;
+    font-size: 20px;
     background-color: white;
     color: black;
-    border: 2px solid #555;
-    border-radius: 10px;
-    width: 200px;
 }
 
 #result {
-    font-size: 22px;
-    font-weight: bold;
-    margin: 20px 0;
-}
-
-#image-container {
-    margin-top: 20px;
+    font-size: 20px;
 }
 
 img {
     margin-top: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px black;
 }

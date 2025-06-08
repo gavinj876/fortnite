@@ -1,36 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fortnite Skin Trivia Game</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <h1 id="title">Fortnite Skin Trivia Game</h1>
 
-    <head>
-        <title>Fortnite Skin Trivia Game</title>
-        <link rel="stylesheet" href="styles.css" />
-    </head>
+    <a href="about.html" class="nav-link">About</a>
 
-    <body>
-        <h1 id="title">Fortnite Skin Trivia Game</h1>
+    <h2 id="question-number"></h2>
+    <h3 id="question"></h3>
 
-        <a href="about.html" class="nav-link">
-            About
-        </a>
+    <div id="answers">
+        <button id="answer1"></button>
+        <button id="answer2"></button>
+        <button id="answer3"></button>
+        <button id="answer4"></button>
+    </div>
 
-        <img src="images/buck.jpg" alt="Fortnite Logo" width="100" />
+    <p id="result"></p>
 
-        <div>
+    <div id="image-container"></div>
 
-            <p id="question-number">Question 1 of 10</p>
-
-            <p id="question">Question will go here</p>
-            <button id="answer1">Answer 1</button>
-            <button id="answer2">Answer 2</button>
-            <button id="answer3">Answer 3</button>
-            <button id="answer4">Answer 4</button>
-            <p id="result"></p>
-
-        </div>
-
-        <img src="images/fortnite.jpg" alt="Fortnite Logo" width="300" />
-
-        <script src="script.js"></script>
-    </body>
-
+    <script src="script.js"></script>
+</body>
 </html>

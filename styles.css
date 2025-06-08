@@ -1,52 +1,38 @@
-/*AI helped me make sure the image fit properly as the background*/
 body {
     background-image: url('images/new.jpg');
     background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-position: center;
     text-align: center;
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    font-family: sans-serif;
+    font-family: Arial, sans-serif;
+    color: white;
+    padding: 20px;
 }
 
 #title {
-    font-size: 50px;
-    color: white; 
+    font-size: 48px;
+    margin-bottom: 10px;
 }
 
 .nav-link {
-    color: blue;
+    color: lightblue;
     font-size: 20px;
+    text-decoration: none;
 }
 
-#question-number {
-    color: black;
-}
-#question {
-    font-size: 20px;
-    color: black;
-}
-
-button {
-    display: block;
-    font-size: 20px;
-    background-color: white;
-    color: black;
+#answers button {
+    margin: 10px;
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
 }
 
 #result {
-    font-size: 20px;
-}
-
-img {
+    font-size: 24px;
     margin-top: 20px;
-    border-radius: 10px;
 }
 
-/*AI helped with the styles for the image containers*/
 #image-container {
     margin-top: 30px;
     text-align: center;

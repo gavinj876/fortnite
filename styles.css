@@ -1,11 +1,10 @@
 /*AI helped me learn what most of these types of styles were and what they did to make my website look better.*/
 
 body {
-    background-image: url('images/new.jpg');
+    background-image: url('images/load.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
-    font-family: Arial, sans-serif;
     color: black;
     padding: 20px;
 }

@@ -1,3 +1,5 @@
+/*AI helped me learn what most of these types of styles were and what they did to make my website look better.*/
+
 body {
     background-image: url('images/new.jpg');
     background-size: cover;
@@ -21,15 +23,15 @@ body {
 
 #answers button {
     margin: 10px;
-    padding: 12px 20px;
-    font-size: 18px;
+    padding: 10px 20px;
+    font-size: 20px;
     border-radius: 10px;
     border: none;
     cursor: pointer;
 }
 
 #result {
-    font-size: 24px;
+    font-size: 30px;
     margin-top: 20px;
 }
 
@@ -39,8 +41,7 @@ body {
 }
 
 #image-container img {
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
     max-width: 90%;
     height: auto;
 }

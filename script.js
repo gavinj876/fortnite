@@ -74,7 +74,7 @@ function shuffle(array) {
 
 function showQuestion() {
     result.textContent = "";
-    imageContainer.innerHTML = ""; // Clear any previous image
+    imageContainer.innerHTML = "";
 
     allButtons.forEach(button => {
         button.disabled = false;

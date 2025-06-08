@@ -5,7 +5,7 @@ My name is Gavin Johnson, I created this fortnite skin themed trivia for my APCS
 
 DESCRIPTION
 
-My website is a trivia game about OG Fortnite skins. It is a 10 question multiple choice trivia game. The user is asked a question about a certain skin, then they have to select what skin that question is asking about. The game tracks the score of the user and displays it at the end. It always shuffles the order of questions and what order the answer are in whenever a new user plays. There are 4 different fortnite related images. 2 on the normal trivia, 1 on the about page, and 1 on the end screen. There is the fortnite loading screen as the background. It tests the OG Fortnite skin ball knowledge of the user.
+My website is a trivia game about OG Fortnite skins. It is a 10 question multiple choice trivia game. The user is asked a question about a certain skin, then they have to select what skin that question is asking about. The game tracks the score of the user and displays it at the end. It always shuffles the order of questions and what order the answer are in whenever a new user plays. There are 3 different fortnite related images. 1 on the normal trivia, 1 on the about page, and 1 on the end screen. There is the fortnite logo as the background. It tests the OG Fortnite skin ball knowledge of the user.
 
 HOW TO USE
 

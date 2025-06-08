@@ -90,7 +90,6 @@ function showQuestion() {
     shuffle(shuffledAnswers);
 
     for (let i = 0; i < allButtons.length; i++) {
-        // Clone the button to remove any previous listeners
         let newButton = allButtons[i].cloneNode(true);
         newButton.textContent = shuffledAnswers[i];
         newButton.disabled = false;
@@ -99,7 +98,7 @@ function showQuestion() {
         newButton.addEventListener("click", () => checkAnswer(shuffledAnswers[i]));
 
         allButtons[i].replaceWith(newButton);
-        allButtons[i] = newButton; // Update reference in array
+        allButtons[i] = newButton;
     }
 }
 

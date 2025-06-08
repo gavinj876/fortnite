@@ -1,4 +1,5 @@
-let questions = [{
+let questions = [
+    {
         question: "Which Skin Has A Built-In Emote?",
         answers: ["Brite Bomber", "Nog Ops", "Isabella", "Mogul Master"],
         correct: "Isabella"
@@ -88,10 +89,17 @@ function showQuestion() {
     let shuffledAnswers = [...q.answers];
     shuffle(shuffledAnswers);
 
-    // AI helped me debug
     for (let i = 0; i < allButtons.length; i++) {
-        allButtons[i].textContent = shuffledAnswers[i];
-        allButtons[i].onclick = () => checkAnswer(shuffledAnswers[i]);
+        // Clone the button to remove any previous listeners
+        let newButton = allButtons[i].cloneNode(true);
+        newButton.textContent = shuffledAnswers[i];
+        newButton.disabled = false;
+        newButton.style.display = "inline-block";
+
+        newButton.addEventListener("click", () => checkAnswer(shuffledAnswers[i]));
+
+        allButtons[i].replaceWith(newButton);
+        allButtons[i] = newButton; // Update reference in array
     }
 }
 
@@ -124,7 +132,6 @@ function showFinalScore() {
 
     allButtons.forEach(button => button.style.display = "none");
 
-    // AI helped me add the image here
     imageContainer.innerHTML = "";
     let img = document.createElement("img");
     img.src = "images/skin.jpg";
@@ -133,6 +140,5 @@ function showFinalScore() {
     imageContainer.appendChild(img);
 }
 
-// AI helped me shuffle the question order
 shuffle(questions);
 showQuestion();

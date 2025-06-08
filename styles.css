@@ -45,3 +45,13 @@ body {
     max-width: 90%;
     height: auto;
 }
+
+#question {
+    text-align: center;
+    color: black;
+}
+
+#question-number {
+    text-align: center;
+    color: black;
+}

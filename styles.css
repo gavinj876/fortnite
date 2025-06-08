@@ -4,6 +4,8 @@ body {
     background-image: url('images/fortnite.jpg');
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     text-align: center;
     color: black;
     padding: 20px;

@@ -65,6 +65,7 @@ let imageContainer = document.getElementById("image-container");
 
 let allButtons = [answer1, answer2, answer3, answer4];
 
+//AI helped me debug
 function shuffle(array) {
     for (let i = array.length - 1; i > 0; i--) {
         let j = Math.floor(Math.random() * (i + 1));
@@ -87,7 +88,8 @@ function showQuestion() {
 
     let shuffledAnswers = [...q.answers];
     shuffle(shuffledAnswers);
-
+    
+    //AI helped me debug
     for (let i = 0; i < allButtons.length; i++) {
         allButtons[i].textContent = shuffledAnswers[i];
         allButtons[i].onclick = () => checkAnswer(shuffledAnswers[i]);

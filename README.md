@@ -29,7 +29,6 @@ AI helped me make the default skin image only appear at then end of the trivia b
 VIDEO
 
 SCREENSHOTS
+![Screenshot 2025-06-08 113717](https://github.com/user-attachments/assets/c624ed47-339b-4dc9-a264-bb10fd25abf5)
 ![Screenshot 2025-06-08 113832](https://github.com/user-attachments/assets/81710d6f-7e49-4b56-b026-2e74482a2a27)
 ![Screenshot 2025-06-08 113741](https://github.com/user-attachments/assets/3d4fdec7-e484-4757-bcf1-0149f2443452)
-![Screenshot 2025-06-08 113717](https://github.com/user-attachments/assets/c624ed47-339b-4dc9-a264-bb10fd25abf5)
-

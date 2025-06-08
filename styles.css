@@ -1,8 +1,15 @@
+/*AI helped me make sure the image fit properly as the background*/
 body {
     background-image: url('images/new.jpg');
-    text-align: center;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: sans-serif;
 }
 
 #title {

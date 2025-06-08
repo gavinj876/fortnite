@@ -123,10 +123,8 @@ function showFinalScore() {
 
     allButtons.forEach(button => button.style.display = "none");
 
-    // AI helped make it so the image only displayed at the end
-    imageContainer.innerHTML = `
         <img src="images/skin.jpg" alt="Fortnite Logo" width="300">
-    `;
+            
 }
 
 shuffle(questions);

@@ -65,7 +65,7 @@ let imageContainer = document.getElementById("image-container");
 
 let allButtons = [answer1, answer2, answer3, answer4];
 
-//AI helped me debug
+// AI helped debug and fix this function
 function shuffle(array) {
     for (let i = array.length - 1; i > 0; i--) {
         let j = Math.floor(Math.random() * (i + 1));
@@ -88,8 +88,8 @@ function showQuestion() {
 
     let shuffledAnswers = [...q.answers];
     shuffle(shuffledAnswers);
-    
-    //AI helped me debug
+
+    // AI helped me debug
     for (let i = 0; i < allButtons.length; i++) {
         allButtons[i].textContent = shuffledAnswers[i];
         allButtons[i].onclick = () => checkAnswer(shuffledAnswers[i]);
@@ -125,12 +125,15 @@ function showFinalScore() {
 
     allButtons.forEach(button => button.style.display = "none");
 
+    // AI helped me add the image here
     imageContainer.innerHTML = "";
     let img = document.createElement("img");
     img.src = "images/skin.jpg";
+    img.alt = "Fortnite Logo";
     img.width = 300;
     imageContainer.appendChild(img);
 }
 
+// AI helped me shuffle the question order
 shuffle(questions);
 showQuestion();

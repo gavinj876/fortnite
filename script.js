@@ -1,5 +1,4 @@
-let questions = [
-    {
+let questions = [{
         question: "Which Skin Has A Built-In Emote?",
         answers: ["Brite Bomber", "Nog Ops", "Isabella", "Mogul Master"],
         correct: "Isabella"

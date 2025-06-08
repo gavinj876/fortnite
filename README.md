@@ -9,11 +9,11 @@ My website is a trivia game about OG Fortnite skins. It is a 10 question multipl
 
 HOW TO USE
 
-The user reads the questions and picks whichever answer they think is correct. They get a message either saying they are correct, or saying they are wrong, then they are told what the right answer was. The user get to see an image of the fortnite logo and vbucks. The user is displayed what question they are on. You can click the "ANOUT" which will forward you to information about what the game is and the reason for it, there is an image of fishstick there. You can then press back to game to go back to the trivia. After answering all questions the users final score will be given to them. Then you get to see an image of the defualt skin. You don't have to type anything, just click on the correct answer.
+The user reads the questions and picks whichever answer they think is correct. They get a message either saying they are correct, or saying they are wrong, then they are told what the right answer was. The user get to see an image of the fortnite logo and vbucks. The user is displayed what question they are on. You can click the "ABOUT" which will forward you to information about what the game is and the reason for it, there is an image of fishstick there. You can then press back to game to go back to the trivia. After answering all questions the users final score will be given to them. Then you get to see an image of the default skin. You don't have to type anything, just click on the correct answer.
 
 FILES
 
-Images folder contain all of the images I have. The images are jpg. Skin is the defualt skin. Fortnite is the logo. Buck is the vbucks.
+Images folder contain all of the images I have. The images are jpg. Skin is the defualt skin. Fortnite is the logo. Buck is the vbucks. Fish is fishstick.
 Readme.md has an explanation of my code and how to use it.
 About.html describes to the user what the reason for the website is. Shows an image of fishstick. Button to go back to trivia.
 Index.html makes the webpage and what is on it, like images. Button to go the about page.

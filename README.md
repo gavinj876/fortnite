@@ -2,7 +2,6 @@
 ## IF THERE ARE ANY QUESTIONS ABOUT THE WEBSITE OR CODE, WE CAN TALK OFFLINE AND FURTHER DEBUG THE ISSUE WITH JAIME
 
 My name is Gavin Johnson, I created this fortnite skin themed trivia for my APCSP final website project.
-(WEBSITE)[gavinj876.github.io/fortnite/]
 
 DESCRIPTION
 

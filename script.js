@@ -152,8 +152,7 @@ function showFinalScore() {
     let img = document.createElement("img");
     img.src = "images/skin.jpg";
     img.alt = "Fortnite Logo";
-    img.width = 300;
-    img.height = 100;
+    img.width = 200;
     imageContainer.appendChild(img);
 }
 

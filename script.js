@@ -51,9 +51,11 @@ let questions = [
     }
 ];
 
+//Question = 0
 let current = 0;
 let score = 0;
 
+//Get elements from HTML doc
 let questionText = document.getElementById("question");
 let questionNumber = document.getElementById("question-number");
 let answer1 = document.getElementById("answer1");
@@ -63,9 +65,11 @@ let answer4 = document.getElementById("answer4");
 let result = document.getElementById("result");
 let imageContainer = document.getElementById("image-container");
 
+//List of answer buttons
 let allButtons = [answer1, answer2, answer3, answer4];
 
 // AI helped debug and fix this function
+//Shuffle answer order
 function shuffle(array) {
     for (let i = array.length - 1; i > 0; i--) {
         let j = Math.floor(Math.random() * (i + 1));
@@ -73,28 +77,33 @@ function shuffle(array) {
     }
 }
 
+//Shows questions and answers
 function showQuestion() {
     result.textContent = "";
     imageContainer.innerHTML = "";
-
+    //Shows buttons with answers
     allButtons.forEach(button => {
         button.disabled = false;
         button.style.display = "inline-block";
     });
 
+    //Update question and question number
     let q = questions[current];
     questionText.textContent = q.question;
     questionNumber.textContent = `Question ${current + 1} of ${questions.length}`;
 
+    //Shuffle order of answers
     let shuffledAnswers = [...q.answers];
     shuffle(shuffledAnswers);
 
+    //Change the buttons to the knew question
     for (let i = 0; i < allButtons.length; i++) {
         let newButton = allButtons[i].cloneNode(true);
         newButton.textContent = shuffledAnswers[i];
         newButton.disabled = false;
         newButton.style.display = "inline-block";
 
+        //Event listener that sees if the user clicked the answer
         newButton.addEventListener("click", () => checkAnswer(shuffledAnswers[i]));
 
         allButtons[i].replaceWith(newButton);
@@ -102,9 +111,11 @@ function showQuestion() {
     }
 }
 
+//Checks if the right button was pressed
 function checkAnswer(answer) {
     let correct = questions[current].correct;
 
+    //Disables buttons after the user clicks one
     allButtons.forEach(button => button.disabled = true);
 
     if (answer === correct) {
@@ -114,6 +125,7 @@ function checkAnswer(answer) {
         result.textContent = "❌ Wrong! The right answer was " + correct;
     }
 
+    //Waits a 1 second then switches to the next question
     setTimeout(() => {
         current++;
         if (current < questions.length) {
@@ -124,13 +136,16 @@ function checkAnswer(answer) {
     }, 1000);
 }
 
+//Says how many were correct and then shows default skin
 function showFinalScore() {
     questionText.textContent = "🎉 You're done!";
     questionNumber.textContent = "";
     result.textContent = `You got ${score} out of ${questions.length} correct.`;
 
+    //Get rid of answer buttons
     allButtons.forEach(button => button.style.display = "none");
 
+    //Default skin
     imageContainer.innerHTML = "";
     let img = document.createElement("img");
     img.src = "images/skin.jpg";

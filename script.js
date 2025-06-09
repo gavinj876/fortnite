@@ -146,6 +146,7 @@ function showFinalScore() {
     //Get rid of answer buttons
     allButtons.forEach(button => button.style.display = "none");
 
+    //AI helped with syntax to include the image
     //Default skin
     imageContainer.innerHTML = "";
     let img = document.createElement("img");

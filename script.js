@@ -1,3 +1,4 @@
+// All questions, answers, and correct answers
 let questions = [
     {
         question: "Which Skin Has A Built-In Emote?",

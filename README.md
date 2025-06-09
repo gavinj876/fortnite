@@ -23,7 +23,7 @@ CREDIBILITY
 
 Luke Calvin helped me come up with some of the questions and skins that I used.
 
-AI helped me make the default skin image only appear at the end of the trivia by telling me what syntax to use and what type of image. It debugged the function that shuffled the questions and answers, so the trivia would not always be in the same order. It helped me debug the background to overlay the questions. I used it to make sure the background image fit properly. AI gave me types of styles I could use to make the images and website look better.
+AI helped me make the default skin image only appear at the end of the trivia by telling me what syntax to use. It debugged the function that shuffled the questions and answers, so the trivia would not always be in the same order. It helped me debug the background to overlay the questions. I used it to make sure the background image fit properly. AI gave me types of styles I could use to make the images and website look better.
 
 I used Grammarly to make sure my spelling was good for the readme.
 

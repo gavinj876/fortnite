@@ -13,10 +13,15 @@ HOW TO USE
 The user reads the questions and picks whichever answer they think is correct. They get a message either saying they are correct or saying they are wrong, then they are told what the right answer was. The user gets to see an image of the Fortnite logo and V-Bucks. The user is displayed what question they are on. You can click the "ABOUT" which will forward you to information about what the game is and the reason for it, and there is an image of a fishstick there. You can then press back to the game to go back to the trivia. After answering all questions, the user's final score will be given to them. Then you get to see an image of the default skin. You don't have to type anything, just click on the correct answer and test your OG Fortnite skin ball knowledge.
 
 The images folder contains all of the images I have. The images are JPG. Skin is the default skin. Fortnite is the logo. Buck is the vbucks. Fish is a fish stick.
+
 Readme.md has an explanation of my code and how to use it.
+
 About.html describes to the user the reason for the website. Shows an image of a fish stick. Button to go back to trivia.
+
 Index.html makes the webpage and what is on it, like images. Button to go to the about page.
+
 Script.js has all of the buttons and the questions. Calculates total score. Shuffles questions and answers.
+
 Styles.css has all of the IDs for specific styles like fonts and colors, so I don't have to type every time.
 
 CREDIBILITY
